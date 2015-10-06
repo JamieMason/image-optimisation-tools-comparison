@@ -1,0 +1,54 @@
+{
+  "name": "image-optimisation-tools-comparison",
+  "description": "A benchmarking suite for popular image optimisation tools.",
+  "version": "0.1.0",
+  "author": "Jamie Mason <siunmaru@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/JamieMason/image-optimisation-tools-comparison/issues"
+  },
+  "dependencies": {
+    "deferred": "0.7.1",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-imagemin": "0.9.4",
+    "grunt-imageoptim": "1.4.1"
+  },
+  "devDependencies": {
+    "esformatter": "0.7.3",
+    "esformatter-braces": "1.2.1",
+    "esformatter-dot-notation": "1.3.1",
+    "esformatter-jsx": "2.3.3",
+    "esformatter-parseint": "1.0.3",
+    "esformatter-quotes": "1.0.3",
+    "esformatter-remove-trailing-commas": "1.0.1",
+    "esformatter-semicolons": "1.1.2",
+    "esformatter-use-strict": "2.0.2",
+    "esformatter-var-each": "2.1.0",
+    "eslint": "1.6.0"
+  },
+  "engines": {
+    "node": "0.12.*",
+    "npm": "2.*"
+  },
+  "homepage": "https://github.com/JamieMason/image-optimisation-tools-comparison",
+  "keywords": [
+    "codekit",
+    "imagemin",
+    "imageoptim",
+    "jpegmini",
+    "jpegtran",
+    "kraken.io",
+    "pngquant",
+    "smush.it"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamieMason/image-optimisation-tools-comparison.git"
+  },
+  "scripts": {
+    "formatter": "node_modules/esformatter/bin/esformatter -i 'src/**/*.js' '*.js'",
+    "linter": "node_modules/eslint/bin/eslint.js --config .eslintrc ."
+  }
+}
