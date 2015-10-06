@@ -26,6 +26,18 @@
     },
     {
       "name": "gif-interlaced_bril.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 67058,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 1.6571830820672258,
+      "score": 1.6571830820672258,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_bril.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif-interlaced",
       "meanErrorSquared": 0,
@@ -132,6 +144,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_grote-ogen.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 79432,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 1.402646408976937,
+      "score": 1.402646408976937,
       "lossy": false
     },
     {
@@ -246,6 +270,18 @@
     },
     {
       "name": "gif-interlaced_logo.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 8773,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 11.410683631222863,
+      "score": 11.410683631222863,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_logo.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif-interlaced",
       "meanErrorSquared": 0,
@@ -352,6 +388,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_oog.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 116197,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 0.9631201684181816,
+      "score": 0.9631201684181816,
       "lossy": false
     },
     {
@@ -466,6 +514,18 @@
     },
     {
       "name": "gif-interlaced_patroon.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 18820,
+      "sizeSaving": 2084,
+      "sizeSavingPercent": 9.969383849980865,
+      "score": 9.969383849980865,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_patroon.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif-interlaced",
       "meanErrorSquared": 0,
@@ -572,6 +632,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_rood.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 97875,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 1.1413564971466088,
+      "score": 1.1413564971466088,
       "lossy": false
     },
     {
@@ -686,6 +758,18 @@
     },
     {
       "name": "gif-interlaced_skyline.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 126306,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 0.8867196082739571,
+      "score": 0.8867196082739571,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_skyline.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif-interlaced",
       "meanErrorSquared": 0,
@@ -792,6 +876,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_streepjes.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 2488,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 31.23272526257601,
+      "score": 31.23272526257601,
       "lossy": false
     },
     {
@@ -906,6 +1002,18 @@
     },
     {
       "name": "gif-interlaced_wolk.gif",
+      "tool": "image_optim",
+      "type": "gif-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 107477,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 1.0404485898698979,
+      "score": 1.0404485898698979,
+      "lossy": false
+    },
+    {
+      "name": "gif-interlaced_wolk.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif-interlaced",
       "meanErrorSquared": 0,
@@ -1012,6 +1120,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif_bril.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 67058,
+      "sizeSaving": 8588,
+      "sizeSavingPercent": 11.35288052243344,
+      "score": 11.35288052243344,
       "lossy": false
     },
     {
@@ -1126,6 +1246,18 @@
     },
     {
       "name": "gif_grote-ogen.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 79432,
+      "sizeSaving": 9898,
+      "sizeSavingPercent": 11.080264188962275,
+      "score": 11.080264188962275,
+      "lossy": false
+    },
+    {
+      "name": "gif_grote-ogen.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif",
       "meanErrorSquared": 0,
@@ -1232,6 +1364,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif_logo.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 8773,
+      "sizeSaving": 1804,
+      "sizeSavingPercent": 17.055875957265766,
+      "score": 17.055875957265766,
       "lossy": false
     },
     {
@@ -1346,6 +1490,18 @@
     },
     {
       "name": "gif_oog.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 116197,
+      "sizeSaving": 9350,
+      "sizeSavingPercent": 7.447410133256868,
+      "score": 7.447410133256868,
+      "lossy": false
+    },
+    {
+      "name": "gif_oog.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif",
       "meanErrorSquared": 0,
@@ -1452,6 +1608,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif_patroon.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 18820,
+      "sizeSaving": 1406,
+      "sizeSavingPercent": 6.951448630475625,
+      "score": 6.951448630475625,
       "lossy": false
     },
     {
@@ -1566,6 +1734,18 @@
     },
     {
       "name": "gif_rood.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 97875,
+      "sizeSaving": 10224,
+      "sizeSavingPercent": 9.457996836233452,
+      "score": 9.457996836233452,
+      "lossy": false
+    },
+    {
+      "name": "gif_rood.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif",
       "meanErrorSquared": 0,
@@ -1672,6 +1852,18 @@
       "sizeSaving": 0,
       "sizeSavingPercent": 0,
       "score": 0,
+      "lossy": false
+    },
+    {
+      "name": "gif_skyline.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 126306,
+      "sizeSaving": 9894,
+      "sizeSavingPercent": 7.26431718061674,
+      "score": 7.26431718061674,
       "lossy": false
     },
     {
@@ -1786,6 +1978,18 @@
     },
     {
       "name": "gif_streepjes.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 2488,
+      "sizeSaving": 1130,
+      "sizeSavingPercent": 31.23272526257601,
+      "score": 31.23272526257601,
+      "lossy": false
+    },
+    {
+      "name": "gif_streepjes.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif",
       "meanErrorSquared": 0,
@@ -1896,6 +2100,18 @@
     },
     {
       "name": "gif_wolk.gif",
+      "tool": "image_optim",
+      "type": "gif",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 107477,
+      "sizeSaving": 11666,
+      "sizeSavingPercent": 9.791594974106745,
+      "score": 9.791594974106745,
+      "lossy": false
+    },
+    {
+      "name": "gif_wolk.gif",
       "tool": "imagealpha-and-imageoptim",
       "type": "gif",
       "meanErrorSquared": 0,
@@ -2002,6 +2218,18 @@
       "sizeSaving": 948,
       "sizeSavingPercent": 1.0431108470324155,
       "score": 1.0431108470324155,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_bril.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 85967,
+      "sizeSaving": 4915,
+      "sizeSavingPercent": 5.408111617261944,
+      "score": 5.408111617261944,
       "lossy": false
     },
     {
@@ -2128,6 +2356,18 @@
     },
     {
       "name": "jpeg-optimised_grote-ogen.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 100652,
+      "sizeSaving": 6220,
+      "sizeSavingPercent": 5.82004641065948,
+      "score": 5.82004641065948,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_grote-ogen.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-optimised",
       "meanErrorSquared": 0,
@@ -2246,6 +2486,18 @@
       "sizeSaving": 907,
       "sizeSavingPercent": 1.680158568438212,
       "score": 1.680158568438212,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_logo.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 49423,
+      "sizeSaving": 4560,
+      "sizeSavingPercent": 8.447103717837097,
+      "score": 8.447103717837097,
       "lossy": false
     },
     {
@@ -2372,6 +2624,18 @@
     },
     {
       "name": "jpeg-optimised_oog.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 146271,
+      "sizeSaving": 7851,
+      "sizeSavingPercent": 5.094016428543621,
+      "score": 5.094016428543621,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_oog.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-optimised",
       "meanErrorSquared": 0,
@@ -2490,6 +2754,18 @@
       "sizeSaving": 956,
       "sizeSavingPercent": 0.4447835634793613,
       "score": 0.4447835634793613,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_patroon.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 206370,
+      "sizeSaving": 8566,
+      "sizeSavingPercent": 3.985372389920721,
+      "score": 3.985372389920721,
       "lossy": false
     },
     {
@@ -2616,6 +2892,18 @@
     },
     {
       "name": "jpeg-optimised_rood.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 119794,
+      "sizeSaving": 6883,
+      "sizeSavingPercent": 5.433504108875328,
+      "score": 5.433504108875328,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_rood.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-optimised",
       "meanErrorSquared": 0,
@@ -2734,6 +3022,18 @@
       "sizeSaving": 971,
       "sizeSavingPercent": 0.4329679933650219,
       "score": 0.4329679933650219,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_skyline.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 211837,
+      "sizeSaving": 12429,
+      "sizeSavingPercent": 5.542079494885538,
+      "score": 5.542079494885538,
       "lossy": false
     },
     {
@@ -2860,6 +3160,18 @@
     },
     {
       "name": "jpeg-optimised_streepjes.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 83131,
+      "sizeSaving": 3864,
+      "sizeSavingPercent": 4.44163457669981,
+      "score": 4.44163457669981,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_streepjes.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-optimised",
       "meanErrorSquared": 0,
@@ -2978,6 +3290,18 @@
       "sizeSaving": 876,
       "sizeSavingPercent": 1.0076609841949065,
       "score": 1.0076609841949065,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-optimised_wolk.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-optimised",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 82229,
+      "sizeSaving": 4705,
+      "sizeSavingPercent": 5.412151747302552,
+      "score": 5.412151747302552,
       "lossy": false
     },
     {
@@ -3104,6 +3428,18 @@
     },
     {
       "name": "jpeg-progressive_bril.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 85967,
+      "sizeSaving": 1291,
+      "sizeSavingPercent": 1.4795205024181164,
+      "score": 1.4795205024181164,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_bril.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-progressive",
       "meanErrorSquared": 0,
@@ -3222,6 +3558,18 @@
       "sizeSaving": -3751,
       "sizeSavingPercent": -3.670254403131115,
       "score": -3.670254403131115,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_grote-ogen.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 100652,
+      "sizeSaving": 1548,
+      "sizeSavingPercent": 1.5146771037181996,
+      "score": 1.5146771037181996,
       "lossy": false
     },
     {
@@ -3348,6 +3696,18 @@
     },
     {
       "name": "jpeg-progressive_logo.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 49423,
+      "sizeSaving": 1056,
+      "sizeSavingPercent": 2.0919590324689477,
+      "score": 2.0919590324689477,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_logo.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-progressive",
       "meanErrorSquared": 0,
@@ -3466,6 +3826,18 @@
       "sizeSaving": -3907,
       "sizeSavingPercent": -2.617737904603654,
       "score": -2.617737904603654,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_oog.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 146271,
+      "sizeSaving": 2980,
+      "sizeSavingPercent": 1.9966365384486535,
+      "score": 1.9966365384486535,
       "lossy": false
     },
     {
@@ -3592,6 +3964,18 @@
     },
     {
       "name": "jpeg-progressive_patroon.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 206370,
+      "sizeSaving": 624,
+      "sizeSavingPercent": 0.3014580132757471,
+      "score": 0.3014580132757471,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_patroon.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-progressive",
       "meanErrorSquared": 0,
@@ -3710,6 +4094,18 @@
       "sizeSaving": -4604,
       "sizeSavingPercent": -3.7988992763608462,
       "score": -3.7988992763608462,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_rood.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 119794,
+      "sizeSaving": 1399,
+      "sizeSavingPercent": 1.1543570998324986,
+      "score": 1.1543570998324986,
       "lossy": false
     },
     {
@@ -3836,6 +4232,18 @@
     },
     {
       "name": "jpeg-progressive_skyline.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 211837,
+      "sizeSaving": 1448,
+      "sizeSavingPercent": 0.6789038141453924,
+      "score": 0.6789038141453924,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_skyline.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-progressive",
       "meanErrorSquared": 0,
@@ -3954,6 +4362,18 @@
       "sizeSaving": 1084,
       "sizeSavingPercent": 1.2435613578221616,
       "score": 1.2435613578221616,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_streepjes.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 83131,
+      "sizeSaving": 4038,
+      "sizeSavingPercent": 4.632380777570008,
+      "score": 4.632380777570008,
       "lossy": false
     },
     {
@@ -4080,6 +4500,18 @@
     },
     {
       "name": "jpeg-progressive_wolk.jpg",
+      "tool": "image_optim",
+      "type": "jpeg-progressive",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 82229,
+      "sizeSaving": 2147,
+      "sizeSavingPercent": 2.544562434815587,
+      "score": 2.544562434815587,
+      "lossy": false
+    },
+    {
+      "name": "jpeg-progressive_wolk.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg-progressive",
       "meanErrorSquared": 0,
@@ -4198,6 +4630,18 @@
       "sizeSaving": 8107,
       "sizeSavingPercent": 8.268989504391019,
       "score": 8.268989504391019,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_bril.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 85967,
+      "sizeSaving": 12074,
+      "sizeSavingPercent": 12.315255862343305,
+      "score": 12.315255862343305,
       "lossy": false
     },
     {
@@ -4324,6 +4768,18 @@
     },
     {
       "name": "jpeg_grote-ogen.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 100652,
+      "sizeSaving": 12077,
+      "sizeSavingPercent": 10.713303586477304,
+      "score": 10.713303586477304,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_grote-ogen.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg",
       "meanErrorSquared": 0,
@@ -4442,6 +4898,18 @@
       "sizeSaving": 13095,
       "sizeSavingPercent": 19.789635943237975,
       "score": 19.789635943237975,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_logo.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 49423,
+      "sizeSaving": 16748,
+      "sizeSavingPercent": 25.310181197201192,
+      "score": 25.310181197201192,
       "lossy": false
     },
     {
@@ -4568,6 +5036,18 @@
     },
     {
       "name": "jpeg_oog.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 146271,
+      "sizeSaving": 12316,
+      "sizeSavingPercent": 7.766084231368271,
+      "score": 7.766084231368271,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_oog.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg",
       "meanErrorSquared": 0,
@@ -4686,6 +5166,18 @@
       "sizeSaving": 17871,
       "sizeSavingPercent": 7.707967617133418,
       "score": 7.707967617133418,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_patroon.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 206370,
+      "sizeSaving": 25481,
+      "sizeSavingPercent": 10.990248047237234,
+      "score": 10.990248047237234,
       "lossy": false
     },
     {
@@ -4812,6 +5304,18 @@
     },
     {
       "name": "jpeg_rood.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 119794,
+      "sizeSaving": 12778,
+      "sizeSavingPercent": 9.638536040792928,
+      "score": 9.638536040792928,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_rood.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg",
       "meanErrorSquared": 0,
@@ -4930,6 +5434,18 @@
       "sizeSaving": 4702,
       "sizeSavingPercent": 2.062307837383825,
       "score": 2.062307837383825,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_skyline.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 211837,
+      "sizeSaving": 16160,
+      "sizeSavingPercent": 7.087812558937179,
+      "score": 7.087812558937179,
       "lossy": false
     },
     {
@@ -5056,6 +5572,18 @@
     },
     {
       "name": "jpeg_streepjes.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 83131,
+      "sizeSaving": 96530,
+      "sizeSavingPercent": 53.72896733292145,
+      "score": 53.72896733292145,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_streepjes.jpg",
       "tool": "imagealpha-and-imageoptim",
       "type": "jpeg",
       "meanErrorSquared": 0,
@@ -5174,6 +5702,18 @@
       "sizeSaving": 15310,
       "sizeSavingPercent": 15.103385683845,
       "score": 15.103385683845,
+      "lossy": false
+    },
+    {
+      "name": "jpeg_wolk.jpg",
+      "tool": "image_optim",
+      "type": "jpeg",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 82229,
+      "sizeSaving": 19139,
+      "sizeSavingPercent": 18.880711861731513,
+      "score": 18.880711861731513,
       "lossy": false
     },
     {
@@ -5300,6 +5840,18 @@
     },
     {
       "name": "png24-interlaced_bril.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 198904,
+      "sizeSaving": 57750,
+      "sizeSavingPercent": 22.501110444411545,
+      "score": 22.501110444411545,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_bril.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24-interlaced",
       "meanErrorSquared": 2.89982,
@@ -5418,6 +5970,18 @@
       "sizeSaving": 13920,
       "sizeSavingPercent": 4.961682409552664,
       "score": 4.961682409552664,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_grote-ogen.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 219034,
+      "sizeSaving": 61516,
+      "sizeSavingPercent": 21.926929246123684,
+      "score": 21.926929246123684,
       "lossy": false
     },
     {
@@ -5544,6 +6108,18 @@
     },
     {
       "name": "png24-interlaced_logo.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 5559,
+      "sizeSaving": 12954,
+      "sizeSavingPercent": 69.9724517906336,
+      "score": 69.9724517906336,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_logo.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24-interlaced",
       "meanErrorSquared": 0,
@@ -5662,6 +6238,18 @@
       "sizeSaving": 12163,
       "sizeSavingPercent": 3.0849574401168747,
       "score": 3.0849574401168747,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_oog.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 312442,
+      "sizeSaving": 81826,
+      "sizeSavingPercent": 20.753903436241337,
+      "score": 20.753903436241337,
       "lossy": false
     },
     {
@@ -5788,6 +6376,18 @@
     },
     {
       "name": "png24-interlaced_patroon.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 3369,
+      "sizeSaving": 14172,
+      "sizeSavingPercent": 80.79356935180434,
+      "score": 80.79356935180434,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_patroon.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24-interlaced",
       "meanErrorSquared": 0,
@@ -5906,6 +6506,18 @@
       "sizeSaving": 15873,
       "sizeSavingPercent": 4.628209539249246,
       "score": 4.628209539249246,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_rood.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 271406,
+      "sizeSaving": 71556,
+      "sizeSavingPercent": 20.86411905692176,
+      "score": 20.86411905692176,
       "lossy": false
     },
     {
@@ -6032,6 +6644,18 @@
     },
     {
       "name": "png24-interlaced_skyline.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 386514,
+      "sizeSaving": 70435,
+      "sizeSavingPercent": 15.414192831147458,
+      "score": 15.414192831147458,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_skyline.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24-interlaced",
       "meanErrorSquared": 8.31368,
@@ -6150,6 +6774,18 @@
       "sizeSaving": 2365,
       "sizeSavingPercent": 86.34538152610442,
       "score": 86.34538152610442,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_streepjes.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 340,
+      "sizeSaving": 2399,
+      "sizeSavingPercent": 87.58671047827674,
+      "score": 87.58671047827674,
       "lossy": false
     },
     {
@@ -6276,6 +6912,18 @@
     },
     {
       "name": "png24-interlaced_wolk.png",
+      "tool": "image_optim",
+      "type": "png24-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 211205,
+      "sizeSaving": 54198,
+      "sizeSavingPercent": 20.42102010904172,
+      "score": 20.42102010904172,
+      "lossy": false
+    },
+    {
+      "name": "png24-interlaced_wolk.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24-interlaced",
       "meanErrorSquared": 1.08067,
@@ -6394,6 +7042,18 @@
       "sizeSaving": 11735,
       "sizeSavingPercent": 5.41372183572918,
       "score": 5.41372183572918,
+      "lossy": false
+    },
+    {
+      "name": "png24_bril.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 198904,
+      "sizeSaving": 17860,
+      "sizeSavingPercent": 8.23937554206418,
+      "score": 8.23937554206418,
       "lossy": false
     },
     {
@@ -6520,6 +7180,18 @@
     },
     {
       "name": "png24_grote-ogen.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 219034,
+      "sizeSaving": 14268,
+      "sizeSavingPercent": 6.115678391098233,
+      "score": 6.115678391098233,
+      "lossy": false
+    },
+    {
+      "name": "png24_grote-ogen.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24",
       "meanErrorSquared": 4.39109,
@@ -6638,6 +7310,18 @@
       "sizeSaving": 5994,
       "sizeSavingPercent": 46.97124049839354,
       "score": 46.97124049839354,
+      "lossy": false
+    },
+    {
+      "name": "png24_logo.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 5559,
+      "sizeSaving": 7202,
+      "sizeSavingPercent": 56.43758326149988,
+      "score": 56.43758326149988,
       "lossy": false
     },
     {
@@ -6764,6 +7448,18 @@
     },
     {
       "name": "png24_oog.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 312442,
+      "sizeSaving": 21985,
+      "sizeSavingPercent": 6.573930932610105,
+      "score": 6.573930932610105,
+      "lossy": false
+    },
+    {
+      "name": "png24_oog.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24",
       "meanErrorSquared": 4.90467,
@@ -6882,6 +7578,18 @@
       "sizeSaving": 11785,
       "sizeSavingPercent": 71.59781287970839,
       "score": 71.59781287970839,
+      "lossy": false
+    },
+    {
+      "name": "png24_patroon.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 3369,
+      "sizeSaving": 13091,
+      "sizeSavingPercent": 79.53219927095991,
+      "score": 79.53219927095991,
       "lossy": false
     },
     {
@@ -7008,6 +7716,18 @@
     },
     {
       "name": "png24_rood.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 271406,
+      "sizeSaving": 16489,
+      "sizeSavingPercent": 5.727435349693464,
+      "score": 5.727435349693464,
+      "lossy": false
+    },
+    {
+      "name": "png24_rood.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24",
       "meanErrorSquared": 5.55653,
@@ -7126,6 +7846,18 @@
       "sizeSaving": 15283,
       "sizeSavingPercent": 3.8112409538202185,
       "score": 3.8112409538202185,
+      "lossy": false
+    },
+    {
+      "name": "png24_skyline.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 386063,
+      "sizeSaving": 14935,
+      "sizeSavingPercent": 3.724457478590916,
+      "score": 3.724457478590916,
       "lossy": false
     },
     {
@@ -7252,6 +7984,18 @@
     },
     {
       "name": "png24_streepjes.png",
+      "tool": "image_optim",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 340,
+      "sizeSaving": 1905,
+      "sizeSavingPercent": 84.85523385300668,
+      "score": 84.85523385300668,
+      "lossy": false
+    },
+    {
+      "name": "png24_streepjes.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png24",
       "meanErrorSquared": 0,
@@ -7363,6 +8107,18 @@
     {
       "name": "png24_wolk.png",
       "tool": "grunt-contrib-imagemin",
+      "type": "png24",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 211205,
+      "sizeSaving": 18071,
+      "sizeSavingPercent": 7.881766953366248,
+      "score": 7.881766953366248,
+      "lossy": false
+    },
+    {
+      "name": "png24_wolk.png",
+      "tool": "image_optim",
       "type": "png24",
       "meanErrorSquared": 0,
       "qualityLossPercent": 0,
@@ -7496,6 +8252,18 @@
     },
     {
       "name": "png8-interlaced_bril.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 55104,
+      "sizeSaving": 19825,
+      "sizeSavingPercent": 26.458380600301616,
+      "score": 26.458380600301616,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_bril.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8-interlaced",
       "meanErrorSquared": 0,
@@ -7614,6 +8382,18 @@
       "sizeSaving": 921,
       "sizeSavingPercent": 1.0667006404836636,
       "score": 1.0667006404836636,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_grote-ogen.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 62063,
+      "sizeSaving": 24278,
+      "sizeSavingPercent": 28.118738490404326,
+      "score": 28.118738490404326,
       "lossy": false
     },
     {
@@ -7740,6 +8520,18 @@
     },
     {
       "name": "png8-interlaced_logo.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 5559,
+      "sizeSaving": 4780,
+      "sizeSavingPercent": 46.23271109391624,
+      "score": 46.23271109391624,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_logo.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8-interlaced",
       "meanErrorSquared": 0,
@@ -7858,6 +8650,18 @@
       "sizeSaving": 921,
       "sizeSavingPercent": 0.7305349324195698,
       "score": 0.7305349324195698,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_oog.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 96667,
+      "sizeSaving": 29405,
+      "sizeSavingPercent": 23.32397360238594,
+      "score": 23.32397360238594,
       "lossy": false
     },
     {
@@ -7984,6 +8788,18 @@
     },
     {
       "name": "png8-interlaced_patroon.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 3369,
+      "sizeSaving": 3196,
+      "sizeSavingPercent": 48.68240670220868,
+      "score": 48.68240670220868,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_patroon.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8-interlaced",
       "meanErrorSquared": 0,
@@ -8102,6 +8918,18 @@
       "sizeSaving": 921,
       "sizeSavingPercent": 0.8717298300079507,
       "score": 0.8717298300079507,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_rood.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 77043,
+      "sizeSaving": 28609,
+      "sizeSavingPercent": 27.07852193995381,
+      "score": 27.07852193995381,
       "lossy": false
     },
     {
@@ -8228,6 +9056,18 @@
     },
     {
       "name": "png8-interlaced_skyline.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 103756,
+      "sizeSaving": 27994,
+      "sizeSavingPercent": 21.247817836812143,
+      "score": 21.247817836812143,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_skyline.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8-interlaced",
       "meanErrorSquared": 0,
@@ -8346,6 +9186,18 @@
       "sizeSaving": 1621,
       "sizeSavingPercent": 81.2531328320802,
       "score": 81.2531328320802,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_streepjes.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 340,
+      "sizeSaving": 1655,
+      "sizeSavingPercent": 82.95739348370927,
+      "score": 82.95739348370927,
       "lossy": false
     },
     {
@@ -8472,6 +9324,18 @@
     },
     {
       "name": "png8-interlaced_wolk.png",
+      "tool": "image_optim",
+      "type": "png8-interlaced",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 82211,
+      "sizeSaving": 29301,
+      "sizeSavingPercent": 26.27609584618696,
+      "score": 26.27609584618696,
+      "lossy": false
+    },
+    {
+      "name": "png8-interlaced_wolk.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8-interlaced",
       "meanErrorSquared": 0,
@@ -8590,6 +9454,18 @@
       "sizeSaving": 923,
       "sizeSavingPercent": 1.516371223447075,
       "score": 1.516371223447075,
+      "lossy": false
+    },
+    {
+      "name": "png8_bril.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 55104,
+      "sizeSaving": 5765,
+      "sizeSavingPercent": 9.47115937505134,
+      "score": 9.47115937505134,
       "lossy": false
     },
     {
@@ -8716,6 +9592,18 @@
     },
     {
       "name": "png8_grote-ogen.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 62063,
+      "sizeSaving": 6120,
+      "sizeSavingPercent": 8.975844418696742,
+      "score": 8.975844418696742,
+      "lossy": false
+    },
+    {
+      "name": "png8_grote-ogen.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8",
       "meanErrorSquared": 0,
@@ -8834,6 +9722,18 @@
       "sizeSaving": 925,
       "sizeSavingPercent": 12.036434612882237,
       "score": 12.036434612882237,
+      "lossy": false
+    },
+    {
+      "name": "png8_logo.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 5559,
+      "sizeSaving": 2126,
+      "sizeSavingPercent": 27.66428106701366,
+      "score": 27.66428106701366,
       "lossy": false
     },
     {
@@ -8960,6 +9860,18 @@
     },
     {
       "name": "png8_oog.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 96667,
+      "sizeSaving": 9707,
+      "sizeSavingPercent": 9.125350179555154,
+      "score": 9.125350179555154,
+      "lossy": false
+    },
+    {
+      "name": "png8_oog.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8",
       "meanErrorSquared": 0,
@@ -9078,6 +9990,18 @@
       "sizeSaving": 1324,
       "sizeSavingPercent": 21.776315789473685,
       "score": 21.776315789473685,
+      "lossy": false
+    },
+    {
+      "name": "png8_patroon.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 3369,
+      "sizeSaving": 2711,
+      "sizeSavingPercent": 44.588815789473685,
+      "score": 44.588815789473685,
       "lossy": false
     },
     {
@@ -9204,6 +10128,18 @@
     },
     {
       "name": "png8_rood.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 77043,
+      "sizeSaving": 7045,
+      "sizeSavingPercent": 8.378127675768244,
+      "score": 8.378127675768244,
+      "lossy": false
+    },
+    {
+      "name": "png8_rood.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8",
       "meanErrorSquared": 0,
@@ -9322,6 +10258,18 @@
       "sizeSaving": 924,
       "sizeSavingPercent": 0.8281128169279166,
       "score": 0.8281128169279166,
+      "lossy": false
+    },
+    {
+      "name": "png8_skyline.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 103756,
+      "sizeSaving": 7823,
+      "sizeSavingPercent": 7.011175938124557,
+      "score": 7.011175938124557,
       "lossy": false
     },
     {
@@ -9448,6 +10396,18 @@
     },
     {
       "name": "png8_streepjes.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 340,
+      "sizeSaving": 1453,
+      "sizeSavingPercent": 81.03736754043503,
+      "score": 81.03736754043503,
+      "lossy": false
+    },
+    {
+      "name": "png8_streepjes.png",
       "tool": "imagealpha-and-imageoptim",
       "type": "png8",
       "meanErrorSquared": 0,
@@ -9566,6 +10526,18 @@
       "sizeSaving": 923,
       "sizeSavingPercent": 0.997104831043125,
       "score": 0.997104831043125,
+      "lossy": false
+    },
+    {
+      "name": "png8_wolk.png",
+      "tool": "image_optim",
+      "type": "png8",
+      "meanErrorSquared": 0,
+      "qualityLossPercent": 0,
+      "size": 82211,
+      "sizeSaving": 10357,
+      "sizeSavingPercent": 11.188531674012618,
+      "score": 11.188531674012618,
       "lossy": false
     },
     {

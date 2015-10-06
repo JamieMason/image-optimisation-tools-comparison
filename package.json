@@ -49,6 +49,7 @@
   },
   "scripts": {
     "formatter": "node_modules/esformatter/bin/esformatter -i 'src/**/*.js' '*.js'",
+    "image_optim": "image_optim -r images/image_optim/",
     "linter": "node_modules/eslint/bin/eslint.js --config .eslintrc ."
   }
 }
