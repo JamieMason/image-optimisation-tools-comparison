@@ -5,8 +5,7 @@ module.exports = {
     getImagesByName: getImagesByName,
     getImagesByNameByTool: getImagesByNameByTool,
     getImagesByTool: getImagesByTool,
-    getImagesByToolByName: getImagesByToolByName,
-    run: run
+    getImagesByToolByName: getImagesByToolByName
 };
 
 function getImages() {
@@ -27,18 +26,4 @@ function getImagesByTool() {
 
 function getImagesByToolByName() {
     return require('./results/imagesByToolByName.json');
-}
-
-/**
- * @description
- * Regenerate results based on the most recent files in the images directory,
- * gather the file size, quality loss, and score for each file.
- *
- * @return {Promise}
- */
-function run(options) {
-    var data = require('./src/data');
-    return data.gather().then(
-        data.write.bind(null, options.outputDirectory)
-    );
 }
