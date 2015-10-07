@@ -3,34 +3,25 @@
 A benchmarking suite for popular image optimisation tools.
 
 
-## Installation
+
+## Using the results data
+
+Install this project via npm
 
 ```bash
 npm install image-optimisation-tools-comparison
 ```
 
-
-## Usage
+The results JSON can be accessed as follows;
 
 ```javascript
 var comparison = require('image-optimisation-tools-comparison');
-var options = {
-    outputDirectory: __dirname + '/results/'
-};
 
-// Inspect the images and save the results of the test.
-comparison
-    .run(options)
-    .then(readResults);
-
-// Access the generated data via any of these methods
-function readResults() {
-    comparison.getImages();
-    comparison.getImagesByName();
-    comparison.getImagesByNameByTool();
-    comparison.getImagesByTool();
-    comparison.getImagesByToolByName();
-}
+var array = comparison.getImages();
+var groupedByName = comparison.getImagesByName();
+var groupedByNameByTool = comparison.getImagesByNameByTool();
+var groupedByTool = comparison.getImagesByTool();
+var groupedByToolByName = comparison.getImagesByToolByName();
 ```
 
 ## Generated data
