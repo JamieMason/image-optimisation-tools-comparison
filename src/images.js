@@ -35,8 +35,21 @@ exports.get = function() {
                 imagesByTool: {},
                 imagesByName: {},
                 imagesByToolByName: {},
-                imagesByNameByTool: {}
+                imagesByNameByTool: {},
+                results: []
             });
+        })
+        .then(function(index) {
+            index.results = index.images.map(function(img) {
+                return Object.keys(index.imagesByNameByTool[img.name])
+                    .reduce(function(memo, tool) {
+                        memo[tool] = index.imagesByNameByTool[img.name][tool];
+                        return memo;
+                    }, {
+                        name: img.name
+                    });
+            });
+            return index;
         });
 };
 

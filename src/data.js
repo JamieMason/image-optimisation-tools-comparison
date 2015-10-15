@@ -60,7 +60,8 @@ module.exports.read = function(directory) {
             reader('imagesByTool'),
             reader('imagesByName'),
             reader('imagesByToolByName'),
-            reader('imagesByNameByTool')
+            reader('imagesByNameByTool'),
+            reader('results')
         ])
         .then(function() {
             return results;
@@ -83,7 +84,8 @@ module.exports.write = function(directory, results) {
             writer('imagesByTool'),
             writer('imagesByName'),
             writer('imagesByToolByName'),
-            writer('imagesByNameByTool')
+            writer('imagesByNameByTool'),
+            writer('results')
         ])
         .then(function() {
             return results;
