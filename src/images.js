@@ -40,15 +40,18 @@ exports.get = function() {
             });
         })
         .then(function(index) {
-            index.results = index.images.map(function(img) {
-                return Object.keys(index.imagesByNameByTool[img.name])
-                    .reduce(function(memo, tool) {
-                        memo[tool] = index.imagesByNameByTool[img.name][tool];
-                        return memo;
+            var toolNames = Object.keys(index.imagesByTool);
+            var imageNames = Object.keys(index.imagesByName);
+            index.results = imageNames.reduce(function(imageArray, imageName) {
+                return imageArray.concat(
+                    toolNames.reduce(function(result, toolName) {
+                        result[toolName] = index.imagesByNameByTool[imageName][toolName];
+                        return result;
                     }, {
-                        name: img.name
-                    });
-            });
+                        name: imageName
+                    })
+                );
+            }, []);
             return index;
         });
 };
