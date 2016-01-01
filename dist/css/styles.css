@@ -1,0 +1,104 @@
+body {
+  background: #151718;
+  color: #d4d7d6;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 13px; }
+
+button {
+  background: #151718;
+  background: transparent;
+  border: 0;
+  color: #d4d7d6;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 100%;
+  padding: 0; }
+
+a {
+  color: #d4d7d6; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th,
+td {
+  padding: 5px; }
+
+.pack {
+  -webkit-border-horizontal-spacing: 1em;
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+.pack__item {
+  display: table-cell;
+  vertical-align: top; }
+
+.intro {
+  width: 25em; }
+
+.hidden {
+  display: none; }
+
+.header {
+  color: #9bc554;
+  padding-bottom: 0.5em; }
+
+.header__btn {
+  color: #9bc554;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.header,
+.cell {
+  text-align: right; }
+
+.cell--name,
+.header--name {
+  text-align: left; }
+
+.cell--name {
+  color: #4fb4dd; }
+
+.cell {
+  border-width: 1px 2px 1px 1px;
+  border-style: solid;
+  border-color: #333; }
+
+.header--sorted-asc:after {
+  content: '\25b2';
+  margin-left: 0.5em; }
+
+.header--sorted-desc:after {
+  content: '\25bc';
+  margin-left: 0.5em; }
+
+.cell--noop {
+  color: #858b70; }
+
+.filters {
+  border: 1px solid #333;
+  margin-bottom: 0.5em;
+  text-align: center; }
+
+.filters__label {
+  color: #c9352c; }
+
+.toggle {
+  display: inline-block; }
+
+.toggle__label {
+  margin-right: 0.5em;
+  padding: 5px;
+  vertical-align: middle; }
+
+.cell--best {
+  background: #333;
+  border-bottom-color: #444;
+  color: #e6cd69; }
+
+.cell--lossless {
+  border-right: 2px solid #393; }
+
+.cell--lossy {
+  border-right: 2px solid #c00; }
