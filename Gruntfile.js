@@ -47,10 +47,13 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    dest: 'images/grunt-contrib-imagemin',
+                    cwd: 'images/photoshop',
                     src: [
-                        'images/grunt-contrib-imagemin/*'
-                    ]
+                        '*.png',
+                        '*.jpg',
+                        '*.gif'
+                    ],
+                    dest: 'images/grunt-contrib-imagemin/'
                 }]
             }
         }

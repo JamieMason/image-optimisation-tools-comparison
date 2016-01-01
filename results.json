@@ -16,12 +16,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 75646,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 75626,
+            "sizeSaving": 20,
+            "sizeSavingPercent": 0.026438939269756496,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -121,12 +121,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 89330,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 89322,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.008955558043210568,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -226,12 +226,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 10577,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 10569,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.07563581355771958,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -331,12 +331,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 125547,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 125539,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.006372115622037962,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -436,12 +436,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 20226,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 19942,
+            "sizeSaving": 284,
+            "sizeSavingPercent": 1.4041332937802828,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -541,12 +541,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 108099,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 108091,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.007400623502530088,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -646,12 +646,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 136200,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 136192,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.005873715124816446,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -751,12 +751,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 3618,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 3610,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.22111663902708678,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -856,12 +856,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 119143,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 119135,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.006714620246258698,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -1381,12 +1381,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 20904,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 19942,
+            "sizeSaving": 962,
+            "sizeSavingPercent": 4.601990049751244,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -1696,12 +1696,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 3618,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 3610,
+            "sizeSaving": 8,
+            "sizeSavingPercent": 0.22111663902708678,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -1906,12 +1906,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 98041,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 85967,
+            "sizeSaving": 12074,
+            "sizeSavingPercent": 12.315255862343305,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2021,12 +2021,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 112729,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 100652,
+            "sizeSaving": 12077,
+            "sizeSavingPercent": 10.713303586477304,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2136,12 +2136,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 66171,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 49423,
+            "sizeSaving": 16748,
+            "sizeSavingPercent": 25.310181197201192,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2251,12 +2251,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 158587,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 146271,
+            "sizeSaving": 12316,
+            "sizeSavingPercent": 7.766084231368271,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2366,12 +2366,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 231851,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 206370,
+            "sizeSaving": 25481,
+            "sizeSavingPercent": 10.990248047237234,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2481,12 +2481,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 132572,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 119794,
+            "sizeSaving": 12778,
+            "sizeSavingPercent": 9.638536040792928,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2596,12 +2596,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 227997,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 211837,
+            "sizeSaving": 16160,
+            "sizeSavingPercent": 7.087812558937179,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2711,12 +2711,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 179661,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 83131,
+            "sizeSaving": 96530,
+            "sizeSavingPercent": 53.72896733292145,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2826,12 +2826,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 101368,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 82229,
+            "sizeSaving": 19139,
+            "sizeSavingPercent": 18.880711861731513,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -2941,12 +2941,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 90882,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 85967,
+            "sizeSaving": 4915,
+            "sizeSavingPercent": 5.408111617261944,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3056,12 +3056,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 106872,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 100652,
+            "sizeSaving": 6220,
+            "sizeSavingPercent": 5.82004641065948,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3171,12 +3171,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 53983,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 49423,
+            "sizeSaving": 4560,
+            "sizeSavingPercent": 8.447103717837097,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3286,12 +3286,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 154122,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 146271,
+            "sizeSaving": 7851,
+            "sizeSavingPercent": 5.094016428543621,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3401,12 +3401,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 214936,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 206370,
+            "sizeSaving": 8566,
+            "sizeSavingPercent": 3.985372389920721,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3516,12 +3516,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 126677,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 119794,
+            "sizeSaving": 6883,
+            "sizeSavingPercent": 5.433504108875328,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3631,12 +3631,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 224266,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 211837,
+            "sizeSaving": 12429,
+            "sizeSavingPercent": 5.542079494885538,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3746,12 +3746,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 86995,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 83131,
+            "sizeSaving": 3864,
+            "sizeSavingPercent": 4.44163457669981,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3861,12 +3861,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 86934,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 82229,
+            "sizeSaving": 4705,
+            "sizeSavingPercent": 5.412151747302552,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -3976,12 +3976,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 87258,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 85967,
+            "sizeSaving": 1291,
+            "sizeSavingPercent": 1.4795205024181164,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4091,12 +4091,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 102200,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 100652,
+            "sizeSaving": 1548,
+            "sizeSavingPercent": 1.5146771037181996,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4206,12 +4206,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 50479,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 49423,
+            "sizeSaving": 1056,
+            "sizeSavingPercent": 2.0919590324689477,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4321,12 +4321,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 149251,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 146271,
+            "sizeSaving": 2980,
+            "sizeSavingPercent": 1.9966365384486535,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4436,12 +4436,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 206994,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 206370,
+            "sizeSaving": 624,
+            "sizeSavingPercent": 0.3014580132757471,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4551,12 +4551,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 121193,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 119794,
+            "sizeSaving": 1399,
+            "sizeSavingPercent": 1.1543570998324986,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4666,12 +4666,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 213285,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 211837,
+            "sizeSaving": 1448,
+            "sizeSavingPercent": 0.6789038141453924,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4781,12 +4781,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 87169,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 83131,
+            "sizeSaving": 4038,
+            "sizeSavingPercent": 4.632380777570008,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -4896,12 +4896,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 84376,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 82229,
+            "sizeSaving": 2147,
+            "sizeSavingPercent": 2.544562434815587,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5011,12 +5011,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 216764,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 205029,
+            "sizeSaving": 11735,
+            "sizeSavingPercent": 5.41372183572918,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5126,12 +5126,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 233302,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 221102,
+            "sizeSaving": 12200,
+            "sizeSavingPercent": 5.229273645318085,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5241,12 +5241,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 12761,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 6767,
+            "sizeSaving": 5994,
+            "sizeSavingPercent": 46.97124049839354,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5356,12 +5356,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 334427,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 317077,
+            "sizeSaving": 17350,
+            "sizeSavingPercent": 5.1879782433834585,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5471,12 +5471,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 16460,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 4675,
+            "sizeSaving": 11785,
+            "sizeSavingPercent": 71.59781287970839,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5586,12 +5586,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 287895,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 271907,
+            "sizeSaving": 15988,
+            "sizeSavingPercent": 5.553413570919954,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5701,12 +5701,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 400998,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 385715,
+            "sizeSaving": 15283,
+            "sizeSavingPercent": 3.8112409538202185,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5816,12 +5816,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 2245,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 341,
+            "sizeSaving": 1904,
+            "sizeSavingPercent": 84.81069042316258,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -5931,12 +5931,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 229276,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 211205,
+            "sizeSaving": 18071,
+            "sizeSavingPercent": 7.881766953366248,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6046,12 +6046,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 256654,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 246944,
+            "sizeSaving": 9710,
+            "sizeSavingPercent": 3.7833035916058195,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6161,12 +6161,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 280550,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 266630,
+            "sizeSaving": 13920,
+            "sizeSavingPercent": 4.961682409552664,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6276,12 +6276,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 18513,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 9455,
+            "sizeSaving": 9058,
+            "sizeSavingPercent": 48.92778047858262,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6391,12 +6391,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 394268,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 382105,
+            "sizeSaving": 12163,
+            "sizeSavingPercent": 3.0849574401168747,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6506,12 +6506,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 17541,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 5694,
+            "sizeSaving": 11847,
+            "sizeSavingPercent": 67.53890884214127,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6621,12 +6621,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 342962,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 327089,
+            "sizeSaving": 15873,
+            "sizeSavingPercent": 4.628209539249246,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6736,12 +6736,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 456949,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 443931,
+            "sizeSaving": 13018,
+            "sizeSavingPercent": 2.848895609794529,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6851,12 +6851,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 2739,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 374,
+            "sizeSaving": 2365,
+            "sizeSavingPercent": 86.34538152610442,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -6966,12 +6966,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 265403,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 237762,
+            "sizeSaving": 27641,
+            "sizeSavingPercent": 10.414727791321123,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7081,12 +7081,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 60869,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 59946,
+            "sizeSaving": 923,
+            "sizeSavingPercent": 1.516371223447075,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7196,12 +7196,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 68183,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 67260,
+            "sizeSaving": 923,
+            "sizeSavingPercent": 1.3537098690289369,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7311,12 +7311,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 7685,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 6760,
+            "sizeSaving": 925,
+            "sizeSavingPercent": 12.036434612882237,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7426,12 +7426,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 106374,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 105451,
+            "sizeSaving": 923,
+            "sizeSavingPercent": 0.8676932333088913,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7541,12 +7541,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 6080,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 4756,
+            "sizeSaving": 1324,
+            "sizeSavingPercent": 21.776315789473685,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7656,12 +7656,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 84088,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 83164,
+            "sizeSaving": 924,
+            "sizeSavingPercent": 1.0988488250404338,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7771,12 +7771,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 111579,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 110655,
+            "sizeSaving": 924,
+            "sizeSavingPercent": 0.8281128169279166,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -7886,12 +7886,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 1793,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 341,
+            "sizeSaving": 1452,
+            "sizeSavingPercent": 80.98159509202453,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8001,12 +8001,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 92568,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 91645,
+            "sizeSaving": 923,
+            "sizeSavingPercent": 0.997104831043125,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8116,12 +8116,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 74929,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 74274,
+            "sizeSaving": 655,
+            "sizeSavingPercent": 0.8741608722924368,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8231,12 +8231,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 86341,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 85479,
+            "sizeSaving": 862,
+            "sizeSavingPercent": 0.9983669403875332,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8346,12 +8346,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 10339,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 9442,
+            "sizeSaving": 897,
+            "sizeSavingPercent": 8.675887416578005,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8461,12 +8461,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 126072,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 125648,
+            "sizeSaving": 424,
+            "sizeSavingPercent": 0.33631575607589315,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8576,12 +8576,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 6565,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 5849,
+            "sizeSaving": 716,
+            "sizeSavingPercent": 10.906321401370906,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8691,12 +8691,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 105652,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 104763,
+            "sizeSaving": 889,
+            "sizeSavingPercent": 0.8414417143073486,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8806,12 +8806,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 131750,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 131588,
+            "sizeSaving": 162,
+            "sizeSavingPercent": 0.12296015180265656,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -8921,12 +8921,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 1995,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 374,
+            "sizeSaving": 1621,
+            "sizeSavingPercent": 81.2531328320802,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,
@@ -9036,12 +9036,12 @@
         "grunt-contrib-imagemin": {
             "isLossy": false,
             "lossPercent": 0,
-            "size": 111512,
-            "sizeSaving": 0,
-            "sizeSavingPercent": 0,
+            "size": 110908,
+            "sizeSaving": 604,
+            "sizeSavingPercent": 0.5416457421622785,
             "ssim": 1,
             "highestSaving": false,
-            "leastLoss": false
+            "leastLoss": true
         },
         "image_optim": {
             "isLossy": false,

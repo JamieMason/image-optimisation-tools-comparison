@@ -1,3 +1,5 @@
+'use strict';
+
 // 3rd party modules
 const childProcess = require('child_process');
 const deferred = require('deferred');
