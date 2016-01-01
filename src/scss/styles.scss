@@ -1,0 +1,144 @@
+$seti-back: #151718;
+$seti-blue: #4fb4dd;
+$seti-dark: #101112;
+$seti-green: #9bc554;
+$seti-grey: #858b70;
+$seti-red: #c9352c;
+$seti-white: #d4d7d6;
+$seti-highlight: #e6cd69;
+
+$outset: #333;
+
+$body-back: $seti-back;
+$body-text: $seti-white;
+$body-font: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+
+body {
+    background: $body-back;
+    color: $body-text;
+    font-family: $body-font;
+    font-size: 13px;
+}
+
+button {
+    background: $body-back;
+    background: transparent;
+    border: 0;
+    color: $body-text;
+    font-family: $body-font;
+    font-size: 100%;
+    padding: 0;
+}
+
+a {
+    color: $seti-white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.pack {
+    -webkit-border-horizontal-spacing: 1em;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.pack__item {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.intro {
+    width: 25em;
+}
+
+.hidden {
+    display: none;
+}
+
+.header {
+    color: $seti-green;
+    padding-bottom: 0.5em;
+}
+
+.header__btn {
+    color: $seti-green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header,
+.cell {
+    text-align: right;
+}
+
+.cell--name,
+.header--name {
+    text-align: left;
+}
+
+.cell--name {
+    color: $seti-blue;
+}
+
+.cell {
+    border-width: 1px 2px 1px 1px;
+    border-style: solid;
+    border-color: $outset;
+}
+
+.header--sorted-asc:after {
+    content: '\25b2';
+    margin-left: 0.5em;
+}
+
+.header--sorted-desc:after {
+    content: '\25bc';
+    margin-left: 0.5em;
+}
+
+.cell--noop {
+    color: $seti-grey;
+}
+
+.filters {
+    border: 1px solid $outset;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.filters__label {
+    color: $seti-red;
+}
+
+.toggle {
+    display: inline-block;
+}
+
+.toggle__label {
+    margin-right: 0.5em;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.cell--best {
+    background: $outset;
+    border-bottom-color: #444;
+    color: $seti-highlight;
+}
+
+.cell--lossless {
+    border-right: 2px solid #393;
+}
+
+.cell--lossy {
+    border-right: 2px solid #c00;
+}
