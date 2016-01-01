@@ -19,6 +19,7 @@ async function start() {
     let i = 1;
     let images = [];
     for (let imageName of imageNames) {
+        let bestScore = 0;
         let highestSaving = 0;
         let leastLoss = 0;
         let image = {
@@ -30,6 +31,7 @@ async function start() {
             console.log(`${i++}/${total} ${imageName} ${toolName}`);
             if (await exists(toolName, imageName)) {
                 let result = await getResult(toolName, imageName);
+                bestScore = largest(result.score, bestScore);
                 highestSaving = largest(result.sizeSaving, highestSaving);
                 leastLoss = largest(result.ssim, leastLoss);
                 image[toolName] = result;
@@ -38,6 +40,7 @@ async function start() {
         for (let toolName of toolNames) {
             if (await exists(toolName, imageName)) {
                 let result = image[toolName];
+                result.bestScore = result.score === bestScore;
                 result.highestSaving = result.sizeSaving === highestSaving;
                 result.leastLoss = result.sizeSaving > 0 && result.ssim === leastLoss;
             }
@@ -58,12 +61,15 @@ async function getResult(toolName, imageName) {
     const ssim = await getSsim(imageName, toolName);
     const worstSsimPossible = await getSsim(imageName, 'worst');
     const isLossy = ssim < 1;
+    const sizeSavingPercent = (sizeSaving / originalSize) * 100;
+    const lossPercent = isLossy ? ((1 - ssim) / (1 - worstSsimPossible)) * 100 : 0;
     return {
         isLossy: isLossy,
-        lossPercent: isLossy ? ((1 - ssim) / (1 - worstSsimPossible)) * 100 : 0,
+        lossPercent: lossPercent,
         size: size,
         sizeSaving: sizeSaving,
-        sizeSavingPercent: (sizeSaving / originalSize) * 100,
+        sizeSavingPercent: sizeSavingPercent,
+        score: sizeSavingPercent - lossPercent,
         ssim: ssim
     };
 }
@@ -71,7 +77,7 @@ async function getResult(toolName, imageName) {
 start()
     .then(results => {
         const writeTo = `${__dirname}/results.json`;
-        fs.writeFileSync(writeTo, JSON.stringify(results, null, 4));
+        fs.writeFileSync(writeTo, JSON.stringify(results));
         console.log(writeTo);
     });
 
