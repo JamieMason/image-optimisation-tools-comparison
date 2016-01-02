@@ -39,11 +39,6 @@ table {
     width: 100%;
 }
 
-th,
-td {
-    padding: 5px;
-}
-
 .pack {
     -webkit-border-horizontal-spacing: 1em;
     display: table;
@@ -66,33 +61,12 @@ td {
 
 .header {
     color: $seti-green;
-    padding-bottom: 0.5em;
-}
-
-.header__btn {
-    color: $seti-green;
-    font-weight: bold;
-    text-decoration: underline;
+    padding: 5px 5px 0.5em 5px;
 }
 
 .header,
 .cell {
     text-align: right;
-}
-
-.cell--name,
-.header--name {
-    text-align: left;
-}
-
-.cell--name {
-    color: $seti-blue;
-}
-
-.cell {
-    border-width: 1px 2px 1px 1px;
-    border-style: solid;
-    border-color: $outset;
 }
 
 .header--sorted-asc:after {
@@ -105,9 +79,51 @@ td {
     margin-left: 0.5em;
 }
 
-.cell--noop {
-    color: $seti-grey;
+.header__btn {
+    color: $seti-green;
+    font-weight: bold;
 }
+
+.cell--name,
+.header--name {
+    text-align: left;
+}
+
+.cell {
+    border-width: 1px 2px 1px 1px;
+    border-style: solid;
+    border-color: $outset;
+}
+
+.cell--name {
+    color: $seti-blue;
+    padding: 5px;
+}
+
+.cell--best {
+    background: $outset;
+    border-bottom-color: #444;
+    color: $seti-highlight;
+}
+
+.cell--lossless {
+    border-right: 2px solid #393;
+}
+
+.cell--lossy {
+    border-right: 2px solid #c00;
+}
+
+.cell__value {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+
+    .cell--noop > & {
+        color: $seti-grey;
+    }
+}
+
 
 .filters {
     border: 1px solid $outset;
@@ -127,18 +143,4 @@ td {
     margin-right: 0.5em;
     padding: 5px;
     vertical-align: middle;
-}
-
-.cell--best {
-    background: $outset;
-    border-bottom-color: #444;
-    color: $seti-highlight;
-}
-
-.cell--lossless {
-    border-right: 2px solid #393;
-}
-
-.cell--lossy {
-    border-right: 2px solid #c00;
 }

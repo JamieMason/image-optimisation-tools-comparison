@@ -16,7 +16,7 @@ var TableCell = React.createClass({
             return displayValue;
         }
         if (this.props.filters.roundNumbers) {
-            displayValue = Math.round(displayValue);
+            displayValue = displayValue.toFixed(2);
         }
         if (displayName.endsWith('Percent')) {
             return `${displayValue}%`;
@@ -25,18 +25,20 @@ var TableCell = React.createClass({
     },
     render: function() {
         var result = this.props.data[this.props.tool];
-        var displayName = this.props.filters.displayValue;
+        var toolName = this.props.tool;
+        var filters = this.props.filters;
+        var displayName = filters.displayValue;
         var displayValue = result[displayName];
-        var isHidden = this.props.filters[this.props.tool] === false;
-        var isSorted = this.props.filters.orderBy === this.props.tool;
+        var isHidden = filters[toolName] === false;
+        var isSorted = filters.orderBy === toolName;
         var classes = isHidden ?
             'hidden' : classNames(
                 'cell',
-                'cell--' + this.props.tool,
+                'cell--' + toolName,
                 isSorted ? {
                     'cell--sorted': isSorted,
-                    'cell--sorted-asc': !this.props.filters.orderDesc,
-                    'cell--sorted-desc': this.props.filters.orderDesc
+                    'cell--sorted-asc': !filters.orderDesc,
+                    'cell--sorted-desc': filters.orderDesc
                 } : null,
                 displayValue ? {
                     'cell--best': result.bestScore,
@@ -48,7 +50,9 @@ var TableCell = React.createClass({
             );
         return (
             <td className={classes}>
-                {this.format(displayName, displayValue)}
+                <a className="cell__value" href={`https://raw.githubusercontent.com/JamieMason/image-optimisation-tools-comparison/master/images/${toolName}/${this.props.data.name}`} target="_blank">
+                    {this.format(displayName, displayValue)}
+                </a>
             </td>
             );
     }
