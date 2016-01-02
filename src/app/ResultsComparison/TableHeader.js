@@ -14,6 +14,9 @@ var TableHeader = React.createClass({
         onOrderChange: React.PropTypes.func.isRequired,
         tool: React.PropTypes.string.isRequired
     },
+    shouldComponentUpdate: function() {
+        return false;
+    },
     handleClick: function() {
         this.props.onOrderChange(this.props.tool);
     },
