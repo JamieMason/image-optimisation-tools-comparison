@@ -20,10 +20,6 @@ table {
   border-collapse: collapse;
   width: 100%; }
 
-th,
-td {
-  padding: 5px; }
-
 .pack {
   -webkit-border-horizontal-spacing: 1em;
   display: table;
@@ -42,28 +38,11 @@ td {
 
 .header {
   color: #9bc554;
-  padding-bottom: 0.5em; }
-
-.header__btn {
-  color: #9bc554;
-  font-weight: bold;
-  text-decoration: underline; }
+  padding: 5px 5px 0.5em 5px; }
 
 .header,
 .cell {
   text-align: right; }
-
-.cell--name,
-.header--name {
-  text-align: left; }
-
-.cell--name {
-  color: #4fb4dd; }
-
-.cell {
-  border-width: 1px 2px 1px 1px;
-  border-style: solid;
-  border-color: #333; }
 
 .header--sorted-asc:after {
   content: '\25b2';
@@ -73,8 +52,40 @@ td {
   content: '\25bc';
   margin-left: 0.5em; }
 
-.cell--noop {
-  color: #858b70; }
+.header__btn {
+  color: #9bc554;
+  font-weight: bold; }
+
+.cell--name,
+.header--name {
+  text-align: left; }
+
+.cell {
+  border-width: 1px 2px 1px 1px;
+  border-style: solid;
+  border-color: #333; }
+
+.cell--name {
+  color: #4fb4dd;
+  padding: 5px; }
+
+.cell--best {
+  background: #333;
+  border-bottom-color: #444;
+  color: #e6cd69; }
+
+.cell--lossless {
+  border-right: 2px solid #393; }
+
+.cell--lossy {
+  border-right: 2px solid #c00; }
+
+.cell__value {
+  display: block;
+  padding: 5px;
+  text-decoration: none; }
+  .cell--noop > .cell__value {
+    color: #858b70; }
 
 .filters {
   border: 1px solid #333;
@@ -91,14 +102,3 @@ td {
   margin-right: 0.5em;
   padding: 5px;
   vertical-align: middle; }
-
-.cell--best {
-  background: #333;
-  border-bottom-color: #444;
-  color: #e6cd69; }
-
-.cell--lossless {
-  border-right: 2px solid #393; }
-
-.cell--lossy {
-  border-right: 2px solid #c00; }
