@@ -12,9 +12,6 @@ var TableRow = React.createClass({
         filters: React.PropTypes.object.isRequired,
         image: React.PropTypes.object.isRequired
     },
-    shouldComponentUpdate: function() {
-        return false;
-    },
     render: function() {
         var image = this.props.image;
         return (

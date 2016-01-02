@@ -11,9 +11,6 @@ var TableCell = React.createClass({
         filters: React.PropTypes.object.isRequired,
         tool: React.PropTypes.string.isRequired
     },
-    shouldComponentUpdate: function() {
-        return false;
-    },
     format: function(displayName, displayValue) {
         if (displayName === 'ssim') {
             return displayValue;
