@@ -16,7 +16,9 @@ var TableCell = React.createClass({
             return displayValue;
         }
         if (this.props.filters.roundNumbers) {
-            displayValue = displayValue.toFixed(2);
+            displayValue = displayValue
+                .toFixed(2)
+                .replace(/\.00$/, '');
         }
         if (displayName.endsWith('Percent')) {
             return `${displayValue}%`;
