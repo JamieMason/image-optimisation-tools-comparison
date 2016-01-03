@@ -28,7 +28,7 @@
     "fixpack": "2.2.0",
     "gulp": "3.9.0",
     "gulp-sass": "2.1.1",
-    "image-optimisation-tools-comparison": "0.11.0",
+    "image-optimisation-tools-comparison": "0.13.0",
     "react": "0.14.5",
     "react-dom": "0.14.5",
     "react-router": "1.0.3",
