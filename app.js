@@ -69,7 +69,7 @@ async function getResult(toolName, imageName) {
         size: size,
         sizeSaving: sizeSaving,
         sizeSavingPercent: sizeSavingPercent,
-        score: sizeSavingPercent - lossPercent,
+        score: sizeSavingPercent - (lossPercent * 2),
         ssim: ssim
     };
 }
