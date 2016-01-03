@@ -40,7 +40,7 @@ table {
 }
 
 .pack {
-    -webkit-border-horizontal-spacing: 1em;
+    -webkit-border-horizontal-spacing: 2em;
     display: table;
     table-layout: fixed;
     width: 100%;
@@ -48,11 +48,15 @@ table {
 
 .pack__item {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .intro {
     width: 25em;
+}
+
+.shields__item--twitter {
+    margin-right: 0.5em;
 }
 
 .hidden {
@@ -111,7 +115,7 @@ table {
 }
 
 .cell--lossy {
-    border-right: 2px solid #c00;
+    border-right: 2px dotted #c00;
 }
 
 .cell__value {
@@ -124,11 +128,9 @@ table {
     }
 }
 
-
 .filters {
     border: 1px solid $outset;
-    margin-bottom: 0.5em;
-    text-align: center;
+    margin-bottom: 1em;
 }
 
 .filters__label {
