@@ -15,9 +15,6 @@ var Intro = React.createClass({
                     <a href="https://twitter.com/fold_left" target="_blank" className="shields__item shields__item--twitter">
                         <img src="https://img.shields.io/twitter/follow/fold_left.svg?style=social" alt="Follow @fold_left on Twitter" />
                     </a>
-                    <a href="https://github.com/JamieMason" target="_blank" className="shields__item shields__item--github">
-                        <img src="https://img.shields.io/github/followers/JamieMason.svg?style=social&label=Follow" alt="Follow @fold_left on Twitter" />
-                    </a>
                 </p>
             </div>
             );
