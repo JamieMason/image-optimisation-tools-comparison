@@ -35,23 +35,15 @@ var Filters = React.createClass({
                     <Toggle onChange={onToggle} filters={filters} name="smushit" />
                     <Toggle onChange={onToggle} filters={filters} name="tinypng" />
                 </fieldset>
-                <fieldset className="filters filters--extensions">
-                    <legend className="filters__label">
-                        Visible File Types
-                    </legend>
-                    <Toggle onChange={onToggle} filters={filters} name="gif" />
-                    <Toggle onChange={onToggle} filters={filters} name="png" />
-                    <Toggle onChange={onToggle} filters={filters} name="jpg" />
-                </fieldset>
                 <fieldset className="filters filters--display">
                     <legend className="filters__label">
                         Visible Metric
                     </legend>
                     <Option onChange={onOption} filters={filters} name="displayValue" value="sizeSavingPercent">
-                        Percentage Filesize Saved
+                        Size Saving %
                     </Option>
                     <Option onChange={onOption} filters={filters} name="displayValue" value="lossPercent">
-                        Percentage Quality Loss
+                        Quality Loss %
                     </Option>
                     <Option onChange={onOption} filters={filters} name="displayValue" value="sizeSaving">
                         Bytes Removed
@@ -63,12 +55,26 @@ var Filters = React.createClass({
                         SSIM
                     </Option>
                 </fieldset>
-                <fieldset className="filters filters--options">
-                    <legend className="filters__label">
-                        Options
-                    </legend>
-                    <Toggle onChange={onToggle} filters={filters} name="roundNumbers" />
-                </fieldset>
+                <div className="pack">
+                    <div className="pack__item pack__item--extensions">
+                        <fieldset className="filters filters--extensions">
+                            <legend className="filters__label">
+                                Visible File Types
+                            </legend>
+                            <Toggle onChange={onToggle} filters={filters} name="gif" />
+                            <Toggle onChange={onToggle} filters={filters} name="png" />
+                            <Toggle onChange={onToggle} filters={filters} name="jpg" />
+                        </fieldset>
+                    </div>
+                    <div className="pack__item">
+                        <fieldset className="filters filters--options">
+                            <legend className="filters__label">
+                                Options
+                            </legend>
+                            <Toggle onChange={onToggle} filters={filters} name="roundNumbers" />
+                        </fieldset>
+                    </div>
+                </div>
             </div>
             );
     }

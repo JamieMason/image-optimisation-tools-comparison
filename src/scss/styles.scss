@@ -40,7 +40,6 @@ table {
 }
 
 .pack {
-    -webkit-border-horizontal-spacing: 2em;
     display: table;
     table-layout: fixed;
     width: 100%;
@@ -65,7 +64,7 @@ table {
 
 .header {
     color: $seti-green;
-    padding: 5px 5px 0.5em 5px;
+    padding: 5px;
 }
 
 .header,
@@ -86,6 +85,7 @@ table {
 .header__btn {
     color: $seti-green;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .cell--name,
@@ -129,12 +129,16 @@ table {
 }
 
 .filters {
-    border: 1px solid $outset;
+    border: 0;
     margin-bottom: 1em;
 }
 
 .filters__label {
     color: $seti-red;
+}
+
+.pack__item--extensions {
+    width: 30%;
 }
 
 .toggle {
@@ -165,12 +169,12 @@ table {
 
 .option {
     display: inline-block;
-    margin-right: 15px;
+    margin: 5px 15px 5px 0;
+    padding: 5px;
+    text-decoration: none;
 }
 
 .option--checked {
     background: $seti-white;
     color: $body-back;
-    padding: 5px;
-    text-decoration: none;
 }
