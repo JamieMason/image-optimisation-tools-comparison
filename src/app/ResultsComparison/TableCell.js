@@ -15,7 +15,7 @@ var TableCell = React.createClass({
         if (displayName === 'ssim') {
             return displayValue;
         }
-        if (this.props.filters.roundNumbers) {
+        if (this.props.filters.roundNumbers === 'true') {
             displayValue = displayValue
                 .toFixed(2)
                 .replace(/\.00$/, '');
@@ -31,7 +31,7 @@ var TableCell = React.createClass({
         var filters = this.props.filters;
         var displayName = filters.displayValue;
         var displayValue = result[displayName];
-        var isHidden = filters[toolName] === false;
+        var isHidden = filters[toolName] !== 'true';
         var isSorted = filters.orderBy === toolName;
         var classes = isHidden ?
             'hidden' : classNames(

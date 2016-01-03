@@ -1,29 +1,39 @@
 'use strict';
 
 // 3rd party modules
-var React = require('react');
 var classNames = require('classNames');
+var React = require('react');
+var ReactRouter = require('react-router');
+
+// components
+var Link = ReactRouter.Link;
 
 // public
 var Option = React.createClass({
     propTypes: {
         filters: React.PropTypes.object.isRequired,
-        name: React.PropTypes.string.isRequired,
-        onChange: React.PropTypes.func.isRequired
+        name: React.PropTypes.string.isRequired
     },
-    handleClick: function() {
-        this.props.onChange(this.props.name, this.props.value);
+    getQuery: function() {
+        var query = Object.assign({}, this.props.filters);
+        query[this.props.name] = this.props.value;
+        return query;
     },
     render: function() {
+        var isChecked = this.props.filters[this.props.name] === this.props.value;
         var classes = classNames(
-            'toggle',
-            'toggle--' + this.props.name
+            'option',
+            'option--' + this.props.name, {
+                'option--checked': isChecked,
+                'option--unchecked': !isChecked
+            }
         );
         return (
-            <label className="toggle">
-                <input type="radio" className="toggle__input" name={this.props.name} value={this.props.value} onChange={this.handleClick} checked={this.props.filters[this.props.name] === this.props.value} />
-                <span className="toggle__label">{this.props.children}</span>
-            </label>
+            <Link className={classes} to="/" query={this.getQuery()}>
+                <span className="option__label">
+                    {this.props.children}
+                </span>
+            </Link>
             );
     }
 });

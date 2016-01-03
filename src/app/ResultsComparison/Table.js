@@ -11,7 +11,6 @@ var TableRow = require('./TableRow');
 var Table = React.createClass({
     propTypes: {
         filters: React.PropTypes.object.isRequired,
-        onOrderChange: React.PropTypes.func.isRequired,
         results: React.PropTypes.array.isRequired
     },
     renderRow: function(image) {
@@ -31,17 +30,17 @@ var Table = React.createClass({
             <table>
                 <thead>
                     <tr>
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="name" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="codekit" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="grunt-contrib-imagemin" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="image_optim" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="imagealpha-and-imageoptim" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="imageoptim" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="jpegmini-and-imageoptim" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="kraken" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="photoshop" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="smushit" />
-                        <TableHeader filters={this.props.filters} onOrderChange={this.props.onOrderChange} tool="tinypng" />
+                        <TableHeader filters={this.props.filters} tool="name" />
+                        <TableHeader filters={this.props.filters} tool="codekit" />
+                        <TableHeader filters={this.props.filters} tool="grunt-contrib-imagemin" />
+                        <TableHeader filters={this.props.filters} tool="image_optim" />
+                        <TableHeader filters={this.props.filters} tool="imagealpha-and-imageoptim" />
+                        <TableHeader filters={this.props.filters} tool="imageoptim" />
+                        <TableHeader filters={this.props.filters} tool="jpegmini-and-imageoptim" />
+                        <TableHeader filters={this.props.filters} tool="kraken" />
+                        <TableHeader filters={this.props.filters} tool="photoshop" />
+                        <TableHeader filters={this.props.filters} tool="smushit" />
+                        <TableHeader filters={this.props.filters} tool="tinypng" />
                     </tr>
                 </thead>
                 <tbody>

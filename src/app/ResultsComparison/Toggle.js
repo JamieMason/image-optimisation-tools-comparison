@@ -1,11 +1,15 @@
 'use strict';
 
 // 3rd party modules
-var React = require('react');
 var classNames = require('classNames');
+var React = require('react');
+var ReactRouter = require('react-router');
 
 // modules
 var translations = require('../translations');
+
+// components
+var Link = ReactRouter.Link;
 
 // public
 var Toggle = React.createClass({
@@ -14,21 +18,29 @@ var Toggle = React.createClass({
         name: React.PropTypes.string.isRequired,
         onChange: React.PropTypes.func.isRequired
     },
-    handleClick: function() {
-        this.props.onChange(this.props.name);
+    getQuery: function() {
+        var query = Object.assign({}, this.props.filters);
+        query[this.props.name] = !(query[this.props.name] === 'true');
+        return query;
     },
     render: function() {
+        var isChecked = this.props.filters[this.props.name] === 'true';
         var classes = classNames(
             'toggle',
-            'toggle--' + this.props.name
+            'toggle--' + this.props.name, {
+                'toggle--checked': isChecked,
+                'toggle--unchecked': !isChecked
+            }
         );
         return (
-            <label className={classes}>
-                <input className="toggle__input" type="checkbox" checked={this.props.filters[this.props.name]} onChange={this.handleClick} />
+            <Link className={classes} to="/" query={this.getQuery()}>
+                <span className="toggle__icon">
+                    {isChecked ? '\u2714' : '\u2716'}
+                </span>
                 <span className="toggle__label">
                     {translations[this.props.name]}
                 </span>
-            </label>
+            </Link>
             );
     }
 });

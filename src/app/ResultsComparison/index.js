@@ -13,46 +13,14 @@ var results = require('image-optimisation-tools-comparison/results.json');
 
 // public
 var ResultsComparison = React.createClass({
-    getInitialState: function() {
-        return {
-            codekit: true,
-            'grunt-contrib-imagemin': true,
-            image_optim: true,
-            'imagealpha-and-imageoptim': true,
-            imageoptim: true,
-            'jpegmini-and-imageoptim': true,
-            kraken: true,
-            photoshop: true,
-            smushit: true,
-            tinypng: true,
-            gif: true,
-            png: true,
-            jpg: true,
-            displayValue: 'score',
-            roundNumbers: true,
-            orderBy: 'name',
-            orderDesc: true
-        };
-    },
     onOption: function(filterName, value) {
         var stateChange = {};
         stateChange[filterName] = value;
         this.setState(stateChange);
     },
-    onOrderChange: function(columnName) {
-        if (this.state.orderBy === columnName) {
-            this.setState({
-                orderDesc: !this.state.orderDesc
-            });
-        } else {
-            this.setState({
-                orderBy: columnName
-            });
-        }
-    },
     onToggle: function(filterName) {
         var stateChange = {};
-        stateChange[filterName] = !this.state[filterName];
+        stateChange[filterName] = !this.props.location.query[filterName];
         this.setState(stateChange);
     },
     getResults: function() {
@@ -61,7 +29,7 @@ var ResultsComparison = React.createClass({
             .sort(this.getSorter());
     },
     getSorter: function() {
-        var outcome = this.state.orderDesc + '' + (this.state.orderBy === 'name');
+        var outcome = this.props.location.query.orderDesc + '' + (this.props.location.query.orderBy === 'name');
         return ({
             truetrue: this.sortNameDesc,
             truefalse: this.sortDesc,
@@ -77,16 +45,16 @@ var ResultsComparison = React.createClass({
                         <Intro />
                     </div>
                     <div className="pack__item">
-                        <Filters onOption={this.onOption} onToggle={this.onToggle} filters={this.state} />
+                        <Filters onOption={this.onOption} onToggle={this.onToggle} filters={this.props.location.query} />
                     </div>
                 </div>
-                <Table filters={this.state} results={this.getResults()} onOrderChange={this.onOrderChange} />
+                <Table filters={this.props.location.query} results={this.getResults()} />
             </div>
             );
     },
     isEnabled: function(image) {
         var extension = image.name.substr(image.name.length - 3);
-        return this.state[extension];
+        return this.props.location.query[extension];
     },
     sort: function(a, b) {
         if (a < b) {
@@ -98,8 +66,8 @@ var ResultsComparison = React.createClass({
         return 0;
     },
     sortAsc: function(a, b) {
-        var orderBy = this.state.orderBy;
-        var displayValue = this.state.displayValue;
+        var orderBy = this.props.location.query.orderBy;
+        var displayValue = this.props.location.query.displayValue;
         return this.sort(a[orderBy][displayValue], b[orderBy][displayValue]);
     },
     sortDesc: function(a, b) {
