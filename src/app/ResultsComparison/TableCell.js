@@ -12,6 +12,9 @@ var TableCell = React.createClass({
         tool: React.PropTypes.string.isRequired
     },
     format: function(displayName, displayValue) {
+        if (displayValue === '') {
+            return 'N/A';
+        }
         if (displayName === 'ssim') {
             return displayValue;
         }
@@ -30,7 +33,7 @@ var TableCell = React.createClass({
         var toolName = this.props.tool;
         var filters = this.props.filters;
         var displayName = filters.displayValue;
-        var displayValue = result[displayName];
+        var displayValue = result ? result[displayName] : '';
         var isHidden = filters[toolName] !== 'true';
         var isSorted = filters.orderBy === toolName;
         var classes = isHidden ?

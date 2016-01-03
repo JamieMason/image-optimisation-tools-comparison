@@ -29,6 +29,7 @@ var TableRow = React.createClass({
                 <TableCell data={image} filters={this.props.filters} tool="photoshop" />
                 <TableCell data={image} filters={this.props.filters} tool="smushit" />
                 <TableCell data={image} filters={this.props.filters} tool="tinypng" />
+                <TableCell data={image} filters={this.props.filters} tool="worst" />
             </tr>
             );
     }

@@ -29,7 +29,8 @@ var defaultQuery = {
     'png': true,
     'roundNumbers': true,
     'smushit': true,
-    'tinypng': true
+    'tinypng': true,
+    'worst': true
 };
 
 ReactDOM.render((

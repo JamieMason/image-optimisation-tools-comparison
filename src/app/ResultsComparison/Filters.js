@@ -22,7 +22,7 @@ var Filters = React.createClass({
             <div>
                 <fieldset className="filters filters--tools">
                     <legend className="filters__label">
-                        Visible Tools
+                        Tools
                     </legend>
                     <Toggle onChange={onToggle} filters={filters} name="codekit" />
                     <Toggle onChange={onToggle} filters={filters} name="grunt-contrib-imagemin" />
@@ -34,10 +34,11 @@ var Filters = React.createClass({
                     <Toggle onChange={onToggle} filters={filters} name="photoshop" />
                     <Toggle onChange={onToggle} filters={filters} name="smushit" />
                     <Toggle onChange={onToggle} filters={filters} name="tinypng" />
+                    <Toggle onChange={onToggle} filters={filters} name="worst" />
                 </fieldset>
                 <fieldset className="filters filters--display">
                     <legend className="filters__label">
-                        Visible Metric
+                        Metric
                     </legend>
                     <Option onChange={onOption} filters={filters} name="displayValue" value="sizeSavingPercent">
                         Size Saving %
@@ -59,7 +60,7 @@ var Filters = React.createClass({
                     <div className="pack__item pack__item--extensions">
                         <fieldset className="filters filters--extensions">
                             <legend className="filters__label">
-                                Visible File Types
+                                File Types
                             </legend>
                             <Toggle onChange={onToggle} filters={filters} name="gif" />
                             <Toggle onChange={onToggle} filters={filters} name="png" />

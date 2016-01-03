@@ -41,6 +41,7 @@ var Table = React.createClass({
                         <TableHeader filters={this.props.filters} tool="photoshop" />
                         <TableHeader filters={this.props.filters} tool="smushit" />
                         <TableHeader filters={this.props.filters} tool="tinypng" />
+                        <TableHeader filters={this.props.filters} tool="worst" />
                     </tr>
                 </thead>
                 <tbody>
