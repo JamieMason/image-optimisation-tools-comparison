@@ -21,24 +21,26 @@ table {
   width: 100%; }
 
 .pack {
-  -webkit-border-horizontal-spacing: 1em;
   display: table;
   table-layout: fixed;
   width: 100%; }
 
 .pack__item {
   display: table-cell;
-  vertical-align: top; }
+  vertical-align: middle; }
 
-.intro {
+.pack__item--intro {
   width: 25em; }
+
+.shields__item--twitter {
+  margin-right: 0.5em; }
 
 .hidden {
   display: none; }
 
 .header {
   color: #9bc554;
-  padding: 5px 5px 0.5em 5px; }
+  padding: 5px; }
 
 .header,
 .cell {
@@ -54,7 +56,8 @@ table {
 
 .header__btn {
   color: #9bc554;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
 
 .cell--name,
 .header--name {
@@ -78,7 +81,7 @@ table {
   border-right: 2px solid #393; }
 
 .cell--lossy {
-  border-right: 2px solid #c00; }
+  border-right: 2px dotted #c00; }
 
 .cell__value {
   display: block;
@@ -88,17 +91,38 @@ table {
     color: #858b70; }
 
 .filters {
-  border: 1px solid #333;
-  margin-bottom: 0.5em;
-  text-align: center; }
+  border: 0;
+  margin-bottom: 1em; }
 
 .filters__label {
   color: #c9352c; }
 
+.pack__item--extensions {
+  width: 30%; }
+
 .toggle {
-  display: inline-block; }
+  display: inline-block;
+  text-decoration: none; }
 
 .toggle__label {
-  margin-right: 0.5em;
+  display: inline-block;
+  padding: 5px 20px 5px 5px; }
+
+.toggle--checked > .toggle__icon {
+  color: #9bc554; }
+
+.toggle--unchecked > .toggle__icon {
+  color: #c9352c; }
+
+.toggle--unchecked > .toggle__label {
+  color: #858b70; }
+
+.option {
+  display: inline-block;
+  margin: 5px 15px 5px 0;
   padding: 5px;
-  vertical-align: middle; }
+  text-decoration: none; }
+
+.option--checked {
+  background: #d4d7d6;
+  color: #151718; }
