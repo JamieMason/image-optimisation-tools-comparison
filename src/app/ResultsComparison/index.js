@@ -54,7 +54,7 @@ var ResultsComparison = React.createClass({
     },
     isEnabled: function(image) {
         var extension = image.name.substr(image.name.length - 3);
-        return this.props.location.query[extension];
+        return this.props.location.query[extension] === 'true';
     },
     sort: function(a, b) {
         if (a < b) {
