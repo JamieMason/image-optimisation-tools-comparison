@@ -5,41 +5,43 @@ const childProcess = require('child_process');
 const deferred = require('deferred');
 const fs = require('fs');
 const path = require('path');
+
 const exec = deferred.promisify(childProcess.exec);
 const execFile = deferred.promisify(childProcess.execFile);
 const glob = deferred.promisify(require('glob'));
+
 const stat = deferred.promisify(fs.stat);
 
-// implementation
+// Implementation
 
 async function start() {
   const imageNames = await getImageNames();
   const toolNames = await getToolNames();
   const total = imageNames.length * toolNames.length;
   let i = 1;
-  let images = [];
-  for (let imageName of imageNames) {
+  const images = [];
+  for (const imageName of imageNames) {
     let bestScore = 0;
     let highestSaving = 0;
     let leastLoss = 0;
-    let image = {
+    const image = {
       name: imageName,
       type: imageName.split('_')[0],
       extension: getType(imageName)
     };
-    for (let toolName of toolNames) {
+    for (const toolName of toolNames) {
       console.log(`${i++}/${total} ${imageName} ${toolName}`);
       if (await exists(toolName, imageName)) {
-        let result = await getResult(toolName, imageName);
+        const result = await getResult(toolName, imageName);
         bestScore = largest(result.score, bestScore);
         highestSaving = largest(result.sizeSaving, highestSaving);
         leastLoss = largest(result.ssim, leastLoss);
         image[toolName] = result;
       }
     }
-    for (let toolName of toolNames) {
+    for (const toolName of toolNames) {
       if (await exists(toolName, imageName)) {
-        let result = image[toolName];
+        const result = image[toolName];
         result.bestScore = result.score === bestScore;
         result.highestSaving = result.sizeSaving === highestSaving;
         result.leastLoss = result.sizeSaving > 0 && result.ssim === leastLoss;
@@ -64,13 +66,13 @@ async function getResult(toolName, imageName) {
   const sizeSavingPercent = sizeSaving / originalSize * 100;
   const lossPercent = isLossy ? (1 - ssim) / (1 - worstSsimPossible) * 100 : 0;
   return {
-    isLossy: isLossy,
-    lossPercent: lossPercent,
-    size: size,
-    sizeSaving: sizeSaving,
-    sizeSavingPercent: sizeSavingPercent,
+    isLossy,
+    lossPercent,
+    size,
+    sizeSaving,
+    sizeSavingPercent,
     score: sizeSavingPercent - lossPercent * 2,
-    ssim: ssim
+    ssim
   };
 }
 

@@ -14,13 +14,13 @@
     "babel-plugin-transform-async-to-generator": "6.3.13",
     "cz-conventional-changelog": "1.1.5",
     "deferred": "0.7.4",
-    "eslint": "1.10.3",
     "glob": "6.0.3",
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
     "grunt-contrib-imagemin": "1.0.0",
     "grunt-imageoptim": "1.4.1",
-    "prettier": "1.5.2"
+    "prettier": "1.5.2",
+    "xo": "0.18.2"
   },
   "homepage": "https://github.com/JamieMason/image-optimisation-tools-comparison",
   "keywords": [
@@ -45,6 +45,13 @@
     "image_optim": "image_optim -r images/image_optim/",
     "imagemin": "grunt imagemin",
     "imageoptim": "grunt imageoptim",
-    "linter": "node_modules/eslint/bin/eslint.js --config .eslintrc ."
+    "lint": "xo --fix"
+  },
+  "xo": {
+    "envs": [
+      "node"
+    ],
+    "esnext": true,
+    "space": 2
   }
 }
