@@ -46,6 +46,13 @@ Every result is in the following format.
 
 ## Dependencies
 
+### pyssim
+
+A [Python module](https://github.com/jterrace/pyssim) for computing the
+Structural Similarity Image Metric (SSIM).
+
+It can be installed on Mac using `brew install python` then `pip install pyssim`.
+
 ### ImageMagick
 
 This project uses [`compare`](http://www.imagemagick.org/script/compare.php)
