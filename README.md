@@ -1,129 +1,81 @@
 # image-optimisation-tools-comparison
 
-A benchmarking suite for popular image optimisation tools.
+> A Benchmarking Suite for popular Image Optimisation Tools
 
+[![NPM version](http://img.shields.io/npm/v/image-optimisation-tools-comparison.svg?style=flat-square)](https://www.npmjs.com/package/image-optimisation-tools-comparison)
+[![NPM downloads](http://img.shields.io/npm/dm/image-optimisation-tools-comparison.svg?style=flat-square)](https://www.npmjs.com/package/image-optimisation-tools-comparison)
+[![Build Status](http://img.shields.io/travis/JamieMason/image-optimisation-tools-comparison/master.svg?style=flat-square)](https://travis-ci.org/JamieMason/image-optimisation-tools-comparison)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a470dd5c2957de2ede65/maintainability)](https://codeclimate.com/github/JamieMason/image-optimisation-tools-comparison/maintainability)
+[![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JamieMason/image-optimisation-tools-comparison)
+[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/foldleft)
+[![Backers](https://opencollective.com/fold_left/backers/badge.svg)](https://opencollective.com/fold_left#backer)
+[![Sponsors](https://opencollective.com/fold_left/sponsors/badge.svg)](https://opencollective.com/fold_left#sponsors)
+[![Analytics](https://ga-beacon.appspot.com/UA-45466560-5/image-optimisation-tools-comparison?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
+[![Follow JamieMason on GitHub](https://img.shields.io/github/followers/JamieMason.svg?style=social&label=Follow)](https://github.com/JamieMason)
+[![Follow fold_left on Twitter](https://img.shields.io/twitter/follow/fold_left.svg?style=social&label=Follow)](https://twitter.com/fold_left)
 
+## ☁️ Installation
 
-## Using the results data
-
-Install this project via npm
-
-```bash
+```
 npm install image-optimisation-tools-comparison
 ```
 
-The results JSON can be accessed as follows;
+## 📋 Usage
 
-```javascript
-var comparison = require('image-optimisation-tools-comparison');
+There are no runtime dependencies, `getResults()` parses and returns
+[`results.json`](./src/data/results.json).
 
-var array = comparison.getImages();
-var groupedByName = comparison.getImagesByName();
-var groupedByNameByTool = comparison.getImagesByNameByTool();
-var groupedByTool = comparison.getImagesByTool();
-var groupedByToolByName = comparison.getImagesByToolByName();
+```ts
+import { getResults } from 'image-optimisation-tools-comparison';
+
+const array = getResults();
 ```
 
-## Generated data
+## ⚙️ Contributing
 
-Every result is in the following format.
+The [pyssim](https://github.com/jterrace/pyssim) Python module is used to compute the **Structural
+Similarity Image Metric** (SSIM). It can be installed on Mac using `brew install python` then
+`pip install pyssim`.
 
-```json
-{
-    "name": "jpeg-optimised_bril.jpg",
-    "tool": "imageoptim",
-    "type": "jpeg-optimised",
-    "meanErrorSquared": 0,
-    "qualityLossPercent": 0,
-    "size": 85704,
-    "sizeSaving": 5178,
-    "sizeSavingPercent": 5.697497854360599,
-    "score": 5.697497854360599,
-    "lossy": false
-}
-```
+The original, unoptimised images are located in [`/images/photoshop`](./images/photoshop). Each time
+a tool is tested, its directory (eg. [`/images/codekit`](./images/codekit)) is replaced with the
+original images from [`/images/photoshop`](./images/photoshop), the tool is then run over the images
+to update the benchmark.
 
+[`/images/worst`](./images/worst) is a copy of the original images at
+[`/images/photoshop`](./images/photoshop) which is then compressed to the worst possible image
+quality. This value lets us calculate the quality loss percentage for each image.
 
-## Dependencies
+Each time the [`/images`](./images) directory changes,
+[`/src/data/results.json`](./src/data/results.json) needs to be updated using `yarn update-results`.
 
-### pyssim
-
-A [Python module](https://github.com/jterrace/pyssim) for computing the
-Structural Similarity Image Metric (SSIM).
-
-It can be installed on Mac using `brew install python` then `pip install pyssim`.
-
-### ImageMagick
-
-This project uses [`compare`](http://www.imagemagick.org/script/compare.php)
-from [ImageMagick](http://www.imagemagick.org/), so you will need to have that
-installed.
-
-If you encounter errors related to `dyld library not loaded`, this is also
-related to your environment and installation of ImageMagick and will need
-resolving before you are ready to begin.
-
-
-## Reference images
-
-### images/photoshop
-
-These are exported from a .psd kindly given to us by [Daan
-Jobsis](http://www.twitter.com./daanjobsis) from his tests carried out for the
-article [Retina Revolution: Follow Up](http://blog.netvlies.nl/design-interactie
-/retina-revolutie-follow-up/), containing photographs of varying levels of
-detail, simple patterns, and logos.
+These images used are exported from a .psd kindly given to us by
+[Daan Jobsis](http://www.twitter.com./daanjobsis) from his tests carried out for the article [Retina
+Revolution: Follow Up](http://blog.netvlies.nl/design-interactie /retina-revolutie-follow-up/),
+containing photographs of varying levels of detail, simple patterns, and logos.
 
 The images are exported using "Save for Web" as;
 
-+ GIF (+Interlaced).
-+ JPEG (+Optimised, Progressive).
-+ PNG 8 (+Interlaced).
-+ PNG 24 (+Interlaced).
+- GIF (+Interlaced).
+- JPEG (+Optimised, Progressive).
+- PNG 8 (+Interlaced).
+- PNG 24 (+Interlaced).
 
-### images/worst
+## Manual Steps
 
-This directory starts as a copy of `images/photoshop` which is then compressed
-to the worst possible image quality. This value lets us calculate the quality
-loss percentage for each image.
+- [`/images/codekit`](./images/codekit) is compressed using https://incident57.com/codekit/.
+- [`/images/kraken`](./images/kraken) is uploaded using the File Uploader at
+  https://kraken.io/web-interface. The Zip file is then downloaded and extracted into this
+  directory.
+- [`/images/smushit`](./images/smushit) is uploaded one-by-one using the Uploader view at
+  http://www.smushit.com/ysmush.it. The Zip file is then downloaded and extracted into this
+  directory.
+- [`/images/tinypng`](./images/tinypng) is uploaded in batches of 20 at a time using the uploader at
+  https://tinypng.com, downloaded one-by-one then moved into this directory.
 
+## :raising_hand: Get Help
 
-## Optimised images
+There are few ways to get help:
 
-All directories start as a copy of `images/photoshop` which is then;
-
-### images/codekit
-
-Compressed using https://incident57.com/codekit/.
-
-### images/grunt-contrib-imagemin
-
-Compressed using `grunt imagemin`.
-
-### images/imagealpha-and-imageoptim
-
-Compressed using `grunt imageoptim:imageAlphaAndImageOptim`.
-
-### images/imageoptim
-
-Compressed using `grunt imageoptim:ImageOptimAlone`.
-
-### images/jpegmini-and-imageoptim
-
-Compressed using `grunt imageoptim:jpegMiniAndImageOptim`.
-
-### images/kraken
-
-Uploaded using the File Uploader at https://kraken.io/web-interface. The Zip
-file is then downloaded and extracted into this directory.
-
-### images/smushit
-
-Uploaded one-by-one using the Uploader view at http://www.smushit.com/ysmush.it.
-The Zip file is then downloaded and extracted into this directory.
-
-### images/tinypng
-
-Uploaded in batches of 20 at a time using the uploader at https://tinypng.com,
-downloaded one-by-one then moved into this directory.
-
+1.  For bug reports and feature requests, open issues :bug:
+1.  For direct and quick help, you can use Gitter :rocket:

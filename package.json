@@ -2,25 +2,31 @@
   "name": "image-optimisation-tools-comparison",
   "description": "A benchmarking suite for popular image optimisation tools.",
   "version": "0.20.0",
-  "author": "Jamie Mason <siunmaru@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/JamieMason/image-optimisation-tools-comparison/issues"
-  },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  },
+  "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
+  "bugs": "https://github.com/JamieMason/image-optimisation-tools-comparison/issues",
   "devDependencies": {
-    "babel-core": "6.25.0",
-    "babel-plugin-transform-async-to-generator": "6.24.1",
-    "deferred": "0.7.8",
-    "glob": "7.1.2",
-    "grunt": "1.0.1",
-    "grunt-cli": "1.2.0",
-    "grunt-contrib-imagemin": "2.0.1",
-    "grunt-imageoptim": "1.4.4",
-    "prettier": "1.5.2",
-    "xo": "0.18.2"
+    "@types/chalk": "2.2.0",
+    "@types/execa": "0.9.0",
+    "@types/fs-extra": "5.0.5",
+    "@types/globby": "8.0.0",
+    "@types/node": "11.9.4",
+    "chalk": "2.4.2",
+    "execa": "1.0.0",
+    "fs-extra": "7.0.1",
+    "globby": "9.0.0",
+    "imagemin-cli": "4.0.0",
+    "imageoptim-cli": "2.3.5",
+    "json-diff": "0.5.3",
+    "prettier": "1.16.4",
+    "rimraf": "2.6.3",
+    "ts-node": "8.0.2",
+    "tslint": "5.12.1",
+    "typescript": "3.3.3"
   },
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.js"
+  ],
   "homepage": "https://github.com/JamieMason/image-optimisation-tools-comparison",
   "keywords": [
     "codekit",
@@ -34,23 +40,19 @@
     "smush.it"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:JamieMason/image-optimisation-tools-comparison.git"
-  },
+  "main": "dist/index",
   "scripts": {
-    "format": "prettier --write --single-quote 'src/**/*.js' '*.js'",
-    "image_optim": "image_optim -r images/image_optim/",
-    "imagemin": "grunt imagemin",
-    "imageoptim": "grunt imageoptim",
-    "lint": "xo --fix"
+    "bench:imagealpha-and-imageoptim": "scripts/imagealpha-and-imageoptim.sh",
+    "bench:imagemin": "scripts/imagemin.sh",
+    "bench:imageoptim": "scripts/imageoptim.sh",
+    "bench:jpegmini-and-imageoptim": "scripts/jpegmini-and-imageoptim.sh",
+    "build": "tsc --project .",
+    "format": "prettier --write 'README.md' './{@types,scripts,src}/**/*.ts'",
+    "lint": "tslint --fix --project ./tsconfig.json",
+    "prebuild": "rimraf ./dist",
+    "prelint": "npm run format",
+    "prepack": "npm run build",
+    "update-results": "ts-node scripts/update-results.ts"
   },
-  "xo": {
-    "envs": [
-      "node"
-    ],
-    "esnext": true,
-    "space": 2
-  }
+  "typings": "dist/index"
 }

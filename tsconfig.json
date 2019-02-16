@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2017", "es6"],
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "typeRoots" : [
+      "./@types",
+      "./node_modules/@types"
+    ],
+  },
+  "include": ["./src/**/*.ts"]
+}
