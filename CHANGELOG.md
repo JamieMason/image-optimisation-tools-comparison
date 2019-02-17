@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/1.9.0...1.9.1) (2019-02-17)
+
+### Bug Fixes
+
+- **npm:** add missing /data directory from package
+  ([873c8be](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/873c8be))
+
 # [1.9.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.20.0...1.9.0) (2019-02-17)
 
 ### Features
