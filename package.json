@@ -24,8 +24,7 @@
     "typescript": "3.3.3"
   },
   "files": [
-    "dist/index.d.ts",
-    "dist/index.js"
+    "dist"
   ],
   "homepage": "https://github.com/JamieMason/image-optimisation-tools-comparison",
   "keywords": [
