@@ -1,7 +1,7 @@
 {
   "name": "image-optimisation-tools-comparison",
   "description": "A benchmarking suite for popular image optimisation tools.",
-  "version": "0.20.0",
+  "version": "1.9.0",
   "author": "Jamie Mason <jamie@foldleft.io> (https://github.com/JamieMason)",
   "bugs": "https://github.com/JamieMason/image-optimisation-tools-comparison/issues",
   "devDependencies": {

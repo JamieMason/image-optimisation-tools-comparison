@@ -1,6 +1,33 @@
-<a name="0.20.0"></a>
+# [1.9.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.20.0...1.9.0) (2019-02-17)
 
-# [0.20.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.13.0...v0.20.0) (2017-07-09)
+### Features
+
+- **codekit:** retest using codekit 3.7.4
+  ([38a6741](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/38a6741))
+- **core:** migrate to typescript
+  ([f6fe8de](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/f6fe8de))
+- **image_optim:** retest image_optim 0.26.3, image_optim_pack 0.5.1.20190105
+  ([721d3b7](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/721d3b7))
+- **imagealpha-imageoptim:** retest using imagealpha 1.5.1 & imageoptim 1.8.8
+  ([9065442](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/9065442))
+- **imagemin:** retest using imagemin-cli 4.0.0
+  ([e0de098](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/e0de098))
+- **imageoptim:** retest using imageoptim 1.8.8
+  ([aa8d877](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/aa8d877))
+- **jpegmini-imageoptim:** retest using jpegmini 2.2.3 & imageoptim 1.8.8
+  ([65240e6](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/65240e6))
+- **kraken:** retest using kraken web interface
+  ([29fe51a](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/29fe51a))
+- **results:** generate comparison data
+  ([b26d187](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/b26d187))
+- **results:** generate comparison data
+  ([a59decf](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/a59decf))
+
+### BREAKING CHANGES
+
+- **core:** The shape of results.json has changed in this release.
+
+# [0.20.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.13.0...0.20.0) (2017-07-09)
 
 ### Features
 
@@ -19,8 +46,6 @@
 - **results:** generate comparison data
   ([29fa8f9](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/29fa8f9))
 
-<a name="0.13.0"></a>
-
 # [0.13.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.11.0...0.13.0) (2016-01-03)
 
 ### Features
@@ -34,16 +59,12 @@
 - **results:** generate comparison data
   ([7a620f4](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/7a620f4))
 
-<a name="0.11.0"></a>
-
 # [0.11.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.10.0...0.11.0) (2016-01-03)
 
 ### Features
 
 - **results:** penalise quality loss more in score formula
   ([5c76862](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/5c76862))
-
-<a name="0.10.0"></a>
 
 # [0.10.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.8.4...0.10.0) (2016-01-01)
 
@@ -60,8 +81,6 @@
 
 - **results:** new schema for results, and other indexes have been removed
 
-<a name="0.8.4"></a>
-
 ## [0.8.4](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.8.3...0.8.4) (2015-12-23)
 
 ### Bug Fixes
@@ -69,16 +88,12 @@
 - **results:** remove duplicates from results.json
   ([8b96fc8](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/8b96fc8))
 
-<a name="0.8.3"></a>
-
 ## [0.8.3](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.7.3...0.8.3) (2015-10-15)
 
 ### Features
 
 - **results:** provide array of all results for each image
   ([e18df3d](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/e18df3d))
-
-<a name="0.7.3"></a>
 
 ## [0.7.3](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.7.1...0.7.3) (2015-10-13)
 
@@ -92,16 +107,12 @@
 - **npm:** image inspection lib is not needed in npm package
   ([5937e92](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/5937e92))
 
-<a name="0.7.1"></a>
-
 ## [0.7.1](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/0.7.0...0.7.1) (2015-10-07)
 
 ### Performance Improvements
 
 - **npm:** only share results data on npm, exclude images
   ([7f7a123](https://github.com/JamieMason/image-optimisation-tools-comparison/commit/7f7a123))
-
-<a name="0.7.0"></a>
 
 # [0.7.0](https://github.com/JamieMason/image-optimisation-tools-comparison/compare/4c81ba7...0.7.0) (2015-10-06)
 
